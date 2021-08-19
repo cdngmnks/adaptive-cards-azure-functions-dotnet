@@ -18,4 +18,30 @@
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup>
+	  <None Remove="Resources\HostConfigs\cortana-skills-classic.json"/>
+	  <None Remove="Resources\HostConfigs\cortana-skills-dark.json"/>
+	  <None Remove="Resources\HostConfigs\cortana-skills-light.json"/>
+	  <None Remove="Resources\HostConfigs\outlook-desktop.json"/>
+	  <None Remove="Resources\HostConfigs\render-to-image.json"/>
+	  <None Remove="Resources\HostConfigs\sample.json"/>
+	  <None Remove="Resources\HostConfigs\skype.json"/>
+	  <None Remove="Resources\HostConfigs\testVariantHostConfig.json"/>
+	  <None Remove="Resources\HostConfigs\webchat.json"/>
+	  <None Remove="Resources\HostConfigs\windows-notification.json"/>
+	  <None Remove="Resources\HostConfigs\windows-timeline.json"/>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\HostConfigs\cortana-skills-classic.json"/>
+    <EmbeddedResource Include="Resources\HostConfigs\cortana-skills-dark.json"/>
+    <EmbeddedResource Include="Resources\HostConfigs\cortana-skills-light.json"/>
+    <EmbeddedResource Include="Resources\HostConfigs\outlook-desktop.json"/>
+    <EmbeddedResource Include="Resources\HostConfigs\render-to-image.json"/>
+    <EmbeddedResource Include="Resources\HostConfigs\sample.json"/>
+    <EmbeddedResource Include="Resources\HostConfigs\skype.json"/>
+    <EmbeddedResource Include="Resources\HostConfigs\testVariantHostConfig.json"/>
+    <EmbeddedResource Include="Resources\HostConfigs\webchat.json"/>
+    <EmbeddedResource Include="Resources\HostConfigs\windows-notification.json"/>
+    <EmbeddedResource Include="Resources\HostConfigs\windows-timeline.json"/>
+  </ItemGroup>
 </Project>
